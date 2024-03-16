@@ -1,7 +1,7 @@
 # dasom_portfolio
 
 🐮SODASOM <br />
-dasom-portfolio.vercel.app
+[dasom-portfolio.vercel.app](https://dasom-portfolio.vercel.app/about)
 
 ## Git Commit & PR Message
 
