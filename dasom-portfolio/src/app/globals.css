@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUIT";
+  src: url("/fonts/SUIT-Heavy.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "SUIT";
+  /* 드래그 방지 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Header component */
+.header {
+  @apply w-full flex justify-between items-center fixed pt-5 px-5 md:pt-10 md:px-10;
+}
+
+/* Nav component */
+.nav {
+  @apply flex flex-col relative md:flex md:flex-row;
+}
+
+.nav_list {
+  @apply flex flex-col gap-3 absolute top-9 right-0 text-right text-sm font-medium;
+}
+
+.nav_list_md {
+  @apply md:flex md:flex-row md:gap-6 md:static md:text-base;
+}
+
+/* Site component */
+.site_list {
+  @apply flex flex-row items-center gap-1 text-xs font-medium text-base-gray800 md:text-base;
+}
+
+/* main page */
+.main_description {
+  @apply text-base font-bold text-base-black whitespace-nowrap md:text-4xl;
+}
+
+/* about page */
+.about_stack {
+  @apply flex flex-col gap-2 relative mb-10 md:flex-row md:items-end md:mb-[4.625rem];
+}
+
+/* AboutContent component */
+.about_content_title {
+  @apply mb-6 text-xl font-extrabold text-base-black md:text-2xl;
+}
+
+.about_content_description_date {
+  @apply mr-6 text-sm font-medium text-base-gray300 md:text-base;
+}
+
+.about_content_description_name {
+  @apply mb-2 text-sm font-bold text-base-gray800 md:text-base;
+}
+
+.about_content_description_part {
+  @apply text-sm font-medium text-base-gray500 md:text-base;
+}
+
+/* ProjectCard component */
+.project_card {
+  @apply w-[22.5rem] border border-base-gray300 rounded-3xl hover:drop-shadow-hover-shadow;
+}
+
+.project_card_stack {
+  @apply w-fit py-1 px-2 bg-base-gray800 rounded-lg text-xs font-bold text-base-white;
+}
+
+/* contact page */
+.contact_card {
+  @apply w-[20.625rem] h-[37.5rem] relative p-6 bg-base-gray800 md:w-[37.5rem] md:h-[20.625rem] md:p-10;
+}
