@@ -11,7 +11,7 @@ export default function About() {
     <>
       <Header />
       <MainLayout>
-        <div className="h-[calc(100%-8rem)] flex flex-col justify-between mt-32">
+        <div className="h-[calc(100%-8rem)] flex flex-col justify-between">
           <div className="pb-10">
             <div className="about_stack">
               <TypingEffect words={WORDS} />

@@ -9,7 +9,7 @@ export default function Main() {
     <>
       <Header />
       <MainLayout>
-        <div className="mt-32">
+        <div>
           <div className="flex flex-col gap-2 mb-10 md:gap-4 md:mb-[4.625rem]">
             <p className="main_description">안녕하세요,</p>
             <p className="text-[2.5rem] font-extrabold text-base-black md:text-[4rem]">

@@ -9,7 +9,7 @@ export default function Project() {
     <>
       <Header />
       <MainLayout>
-        <div className="w-full flex justify-center items-center flex-col gap-10 mt-32 pb-10 md:flex-row">
+        <div className="w-full flex justify-center items-center flex-col gap-10 pb-10 md:flex-row">
           {PROJECT_LIST.map((list) => (
             <ProjectCard
               key={list.id}
