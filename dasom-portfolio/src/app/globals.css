@@ -77,7 +77,7 @@ body {
 
 /* Header component */
 .header {
-  @apply w-full flex justify-between items-center fixed pt-5 px-5 md:pt-10 md:px-10;
+  @apply w-full flex justify-between items-center fixed pt-5 px-5 z-10 md:pt-10 md:px-10;
 }
 
 /* Nav component */
