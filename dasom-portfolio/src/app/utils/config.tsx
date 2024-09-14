@@ -39,13 +39,19 @@ const ABOUT_LIST = [
     title: "Career",
     description: [
       {
-        id: 0,
-        date: "2023.12 -",
+        id: 2,
+        date: "2024.08 -",
+        name: "내가그린기린그림",
+        part: "기획팀 사원",
+      },
+      {
+        id: 1,
+        date: "2023.12 - 2024.07",
         name: "(주) 칸컴스",
         part: "프론트엔드 개발 사원",
       },
       {
-        id: 1,
+        id: 0,
         date: "2023.07 - 2023.09",
         name: "(주) 체인위드",
         part: "프론트엔드 개발 파트타임 사원",
